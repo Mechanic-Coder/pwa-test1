@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1579747500519,
+  "index": "/pwa-test1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pwa-test1/favicon.ico",
+        "/pwa-test1/index.html",
+        "/pwa-test1/main-es2015.b5c95c5753a187690c0e.js",
+        "/pwa-test1/main-es5.b5c95c5753a187690c0e.js",
+        "/pwa-test1/manifest.webmanifest",
+        "/pwa-test1/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/pwa-test1/polyfills-es5.6696c533341b95a3d617.js",
+        "/pwa-test1/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/pwa-test1/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/pwa-test1/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pwa-test1/assets/icons/icon-128x128.png",
+        "/pwa-test1/assets/icons/icon-144x144.png",
+        "/pwa-test1/assets/icons/icon-152x152.png",
+        "/pwa-test1/assets/icons/icon-192x192.png",
+        "/pwa-test1/assets/icons/icon-384x384.png",
+        "/pwa-test1/assets/icons/icon-512x512.png",
+        "/pwa-test1/assets/icons/icon-72x72.png",
+        "/pwa-test1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwa-test1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pwa-test1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pwa-test1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pwa-test1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pwa-test1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pwa-test1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pwa-test1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pwa-test1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pwa-test1/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pwa-test1/index.html": "b324d29be97cd72c8f83f4d721c960b6c36f3514",
+    "/pwa-test1/main-es2015.b5c95c5753a187690c0e.js": "ad82769e33ead07bf816f1939387dd7b5f388fad",
+    "/pwa-test1/main-es5.b5c95c5753a187690c0e.js": "d42fde9e4aaf9c57de12c63532157b929f3004b6",
+    "/pwa-test1/manifest.webmanifest": "93fd9685910570e8e126e36e4987e03d94d7181c",
+    "/pwa-test1/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/pwa-test1/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/pwa-test1/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/pwa-test1/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/pwa-test1/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
